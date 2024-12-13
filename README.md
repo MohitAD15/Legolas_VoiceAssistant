@@ -2,10 +2,6 @@
 # Legolas-Desktop-Assistant
 **Legolas Desktop Assistant** is a Python-based assistant designed to perform various tasks using voice commands.
 
-Here's the updated feature list based on your instructions:
-
----
-
 ## Features
 - **Voice Recognition**: Converts voice commands into text for processing.
 - **Text-to-Speech**: Converts text responses into spoken words.
@@ -20,9 +16,6 @@ Here's the updated feature list based on your instructions:
   - Closes applications like Notepad and browsers like Chrome and Edge.
 - **Music & Entertainment**: Plays music from a specified directory.
 
-This updated list replaces the email functionality with **Weather Updates**. The assistant now provides weather information when requested. Let me know if you'd like to modify anything further!
-
-This updated list replaces the email functionality with **Weather Updates**. The assistant now provides weather information when requested. Let me know if you'd like to modify anything further!
 ## Prerequisites
 - Python 3.x
 - Required Python packages:
