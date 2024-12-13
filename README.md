@@ -19,7 +19,6 @@ Here's the updated feature list based on your instructions:
   - Opens applications like YouTube, Wikipedia, Google, Acrobat Reader, and Command Prompt.
   - Closes applications like Notepad and browsers like Chrome and Edge.
 - **Music & Entertainment**: Plays music from a specified directory.
-- **Weather Updates**: Provides current weather information for a specific location.
 
 This updated list replaces the email functionality with **Weather Updates**. The assistant now provides weather information when requested. Let me know if you'd like to modify anything further!
 
