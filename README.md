@@ -14,6 +14,25 @@
 - **"Set Timer"**: Sets a timer (with minutes or seconds as the unit) and alerts the user when time is up.
 - **"System Controls"**: Allows for shutting down, restarting, or putting the system to sleep.
 
+  #Legolas In Action 
+
+1> Playing Music
+
+![Screenshot 2025-03-12 140733](https://github.com/user-attachments/assets/6af69588-3e35-4c83-89b3-8b98492da457)
+
+2> Searching Information through Web-browser
+
+![Screenshot 2025-03-11 200402](https://github.com/user-attachments/assets/ae3eaf1d-7cd7-4383-bf61-510346e621fa)
+
+3> Fetching Weather Updates using API :
+
+![Screenshot 2025-03-11 195900](https://github.com/user-attachments/assets/1397044b-9cb0-4e6d-ac12-90ab6c6b2768)
+
+4> Performing System Opeartions.
+
+![Screenshot 2025-03-11 195435](https://github.com/user-attachments/assets/2f836f17-7969-4286-b57f-5c75b7b011de)
+
+
 ## Installation
 #### Clone the Repository:
 ```git clone https://github.com/yourusername/legolas-desktop-assistant.git```
@@ -36,6 +55,7 @@ Greeting: Legolas will greet you based on the current time.
 Example Commands:
 - **"Open notepad"** – Launches Notepad.
 - **"Play music"** – Plays all MP3 files from your music folder.
+
 - **"Stop music"** – Stops the media player.
 - **"Give weather"** – Prompts for a city name and provides weather details.
 - **"What is ..."** – Searches and summarizes information from Wikipedia.
