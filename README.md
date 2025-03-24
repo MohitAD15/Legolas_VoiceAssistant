@@ -1,49 +1,44 @@
+# Legolas Desktop Assistant
+##### Legolas is a Python-based voice assistant designed to perform a variety of desktop tasks using voice commands. It leverages speech recognition, text-to-speech, and multiple external APIs to provide real-time information and control over your system. Whether you need to fetch the latest weather, play music, search Wikipedia, or even control system applications, Legolas is here to help.
 
-# Legolas-Desktop-Assistant
-**Legolas Desktop Assistant** is a Python-based assistant designed to perform various tasks using voice commands.
+- **"Speech Recognition"**: Uses the Google Speech Recognition API (via the SpeechRecognition library) to convert spoken commands into text.
+- **"Text-to-Speech"**: Utilizes Pyttsx3 for offline speech synthesis, providing immediate audio feedback.
+- **Weather Updates"**: Retrieves current weather details (temperature, condition, humidity, wind speed) for a specified city using the OpenWeatherMap API.
+- **"Music Control"**:
+-**"Play Music"**: Plays all MP3 files from a designated music directory.
+- **"Stop Music"**: Attempts to stop music playback by closing the active media player window.
+- **"News Headlines"**: Fetches top headlines from TechCrunch using NewsAPI.
+- **"Wikipedia Search"**: Retrieves concise information on a queried topic from Wikipedia.
+- **"Web & Application Controls"**: Opens websites (e.g., YouTube, Google, Facebook, StackOverflow) and system applications (Notepad, Adobe Acrobat, Command Prompt, Calculator) directly via voice commands.
+- **"Timer & System Commands"**:
+- **"Set Timer"**: Sets a timer (with minutes or seconds as the unit) and alerts the user when time is up.
+- **"System Controls"**: Allows for shutting down, restarting, or putting the system to sleep.
 
-## Features
-- **Voice Recognition**: Converts voice commands into text for processing.
-- **Text-to-Speech**: Converts text responses into spoken words.
-- **Task Automation**: Performs tasks like opening applications, playing music, and more.
-- **News Updates**: Fetches the latest news headlines from various sources.
-- **Timer**: Sets a timer and provides alerts when the time is up.
-- **Jokes**: Tells jokes for entertainment.
-- **System Control**: Allows the user to shutdown, restart, or sleep the system using voice commands.
-- **Web Browsing**: Opens websites like YouTube, Facebook, and Google, and performs searches on them.
-- **Application Management**: 
-  - Opens applications like YouTube, Wikipedia, Google, Acrobat Reader, and Command Prompt.
-  - Closes applications like Notepad and browsers like Chrome and Edge.
-- **Music & Entertainment**: Plays music from a specified directory.
+## Installation
+#### Clone the Repository:
+```git clone https://github.com/yourusername/legolas-desktop-assistant.git```
+```cd legolas-desktop-assistant```
 
-## Prerequisites
-- Python 3.x
-- Required Python packages:
-  - pyttsx3
-  - speech_recognition
-  - datetime
-  - os
-  - cv2
-  - random
-  - requests
-  - wikipedia
-  - webbrowser
-  - pywhatkit
-  - smtplib
-  - sys
-  - time
-  - pyjokes
-  - pyautogui
-- Active internet connection for functionalities like fetching news, sending emails, etc.
+#### Set Up a Virtual Environment (Optional but Recommended):
+```python -m venv venv```
+```source venv/bin/activate   # On Windows: venv\Scripts\activate```
 
-## Usage
-1. Run the `Legolas_VA.py` file:
-2. Once the assistant is running, it will greet you and wait for your commands.
-3. Speak your command, and Legolas will perform the corresponding action.
+#### Install Dependencies: Install the required Python packages:
+```pip install pyttsx3 SpeechRecognition wikipedia pywhatkit pyjokes requests pyautogui opencv-python```
+You may also need to install additional packages (such as those for handling emails) if not already available.
 
-## Generating API Keys
-Some functionalities, such as news updates and email functionality, require API keys. Follow these steps to generate the necessary API keys:
+#### Usage
+Run the Assistant: Start the assistant by executing:
+```python Legolas_VA.py```
 
-- **News API Key**: Visit [News API](https://newsapi.org/) and sign up for an API key. Once you have the API key, replace the placeholder `YOUR_NEWS_API_KEY` in the code with your actual API key.
-- **Email API Key**: If you're using email functionality, you may need to configure your email provider's API settings. Consult your email provider’s documentation to generate an API key or enable SMTP access.
-
+#### Interact via Voice Commands:
+Greeting: Legolas will greet you based on the current time.
+Example Commands:
+- **"Open notepad"** – Launches Notepad.
+- **"Play music"** – Plays all MP3 files from your music folder.
+- **"Stop music"** – Stops the media player.
+- **"Give weather"** – Prompts for a city name and provides weather details.
+- **"What is ..."** – Searches and summarizes information from Wikipedia.
+- **"Open YouTube"** – Asks for a search query and opens YouTube results.
+- **"Set timer"** – Sets a countdown based on user input.
+- **"Exit Command"**: Saying "ok thanks" will gracefully exit the application.
